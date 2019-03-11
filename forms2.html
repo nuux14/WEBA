@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h2>Interactive Elements</h2>
+        <div> 
+            <label for="txtName">Name: </label>
+            <input type="text" maxlength="9" id="txtName">
+        </div>
+        <div>
+            <label for="txtEmail">Email:</label>
+            <input type="email" id="txtEmail">
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="txtMale" name="gender">
+            <label for="txtMale">Male</label>
+            <input type="radio" id="txtFemale" name="gender">
+            <label for="txtFemale">Female</label>
+        </div>
+        <div>
+            <label>Favorites:</label><br>
+            <input type="checkbox" id="txtReading">
+            <label for="txtReading">Reading</label><br>
+            <input type="checkbox" id="txtSwimming">
+            <label for="txtSwimming">Swimming</label><br>
+            <input type="checkbox" id="txtCoding">
+            <label for="txtCoding">Coding</label>
+        </div>
+        <div>
+            <label for="txtAge">Age:</label>
+            <input type="number" min="18" max="80" id="txtAge">
+        </div>
+        <div>
+            <label>Area:</label>
+            <select id="drpArea">
+                <option value=""></option>
+                <option value="Gabiley">Gabiley</option>
+                <option value="Lasanod">Lasanod</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <button id="btnSave">Save</button>
+        </div>
+    </form>
+</body>
+
+</html>
