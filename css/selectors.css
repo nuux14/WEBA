@@ -1,0 +1,65 @@
+/* CSS : Rules
+            Selector
+            Declaration
+               set of pairs
+                       property:value; */
+body {
+    background-color:gold;
+    color:red;
+}
+
+/* Tag/Type/Element Selector */
+
+h2 {
+    color:rgb(117, 117, 247);
+}
+
+P {
+    background-color:lightgrey;
+}
+
+/* ID Selector */
+#txtName{
+  background-color:orange;
+}
+
+/* Class Selector */
+.myClass{
+ border-style:dotted;
+}
+.borderDashed{
+    border-style:dashed;
+    border-color:Green;
+}
+
+.bgLightGreen{
+    background-color:lightgreen;
+}
+/* Grouped selectors */
+h2,p, #txtName{
+ background-color:lightgoldenrodyellow;
+}
+
+/* Child selector */
+div > p{
+    color:black;
+}
+/* Descendent selector */
+div p{
+    color:darkgreen;
+}
+
+/* Adjacent sibling selector */
+div+h3{
+    color:black;
+}
+
+/* General sibling selector */
+div~h3{
+    color:darkmagenta;
+}
+
+/* Universal selector */
+* {
+    padding:10px;
+}
